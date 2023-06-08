@@ -1,4 +1,4 @@
-package com.springcore.embigity;
+package com.springcore.constructerinjector;
 
 public class Sum {
     private int x;
@@ -16,8 +16,15 @@ public class Sum {
 
         System.out.println("constructor double double calling..");
     }
+public Sum(String x ,String y){
+        this.x= Integer.parseInt(x);
+        this.y=Integer.parseInt(y);
 
+    System.out.println("constructor String String call");
+}
     public void doSum(){
+        System.out.println("value of x" + this.x);
+        System.out.println("value of y" + this.y);
         System.out.println("sum si ="+ (this.x+this.y));
     }
     @Override

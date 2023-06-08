@@ -13,13 +13,14 @@
 <bean name="jalebi" class="com.springcore.lifecycle.Jalebi" >
     <property name="price" value="50"/>
     <property name="type" value="khovajalebi"/>
+
 </bean>
 <!--        <bean class="com.springcore.lifecycle.Samosa" name="samosa" init-method="hello" destroy-method="bye">-->
 <!--            <property name="price" value="15" />-->
 <!--                </bean>-->
-<!--        <bean class="com.springcore.lifecycle.Sprite" name="colddrink"  >-->
-<!--            <property name="price" value="25"/>-->
-<!--        </bean>-->
+        <bean class="com.springcore.lifecycle.Sprite" name="colddrink"  >
+            <property name="price" value="25"/>
+        </bean>
 
 <!--    c schema use for constructor injection-->
 

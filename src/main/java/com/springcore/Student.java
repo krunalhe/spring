@@ -7,7 +7,7 @@ public class Student {
     private String studentAddress;
 
     public Student(){
-
+       super();
     }
 
     public Student(int studentId, String studentName, String studentAddress) {
@@ -21,6 +21,7 @@ public class Student {
     }
 
     public void setStudentId(int studentId) {
+        System.out.println("setting student id");
         this.studentId = studentId;
     }
 
@@ -29,6 +30,7 @@ public class Student {
     }
 
     public void setStudentName(String studentName) {
+        System.out.println("setting student name");
         this.studentName = studentName;
     }
 
@@ -37,6 +39,7 @@ public class Student {
     }
 
     public void setStudentAddress(String studentAddress) {
+        System.out.println("setting student address");
         this.studentAddress = studentAddress;
     }
 
