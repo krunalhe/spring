@@ -52,4 +52,14 @@ public class Employee {
     public void setCourses(Map<String, Integer> courses) {
         this.courses = courses;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "Name='" + Name + '\'' +
+                ", Phone=" + Phone +
+                ", Addresses=" + Addresses +
+                ", courses=" + courses +
+                '}';
+    }
 }
